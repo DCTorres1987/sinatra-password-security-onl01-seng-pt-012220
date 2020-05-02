@@ -59,8 +59,7 @@ end
 
 	helpers do
 		def logged_in?
-		  			binding.pry
-			!!session[user_id]
+			!!session[:user_id]
 
 		end
 
